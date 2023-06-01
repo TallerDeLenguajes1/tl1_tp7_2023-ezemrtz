@@ -4,7 +4,7 @@ public class Calculadora
 {
     private double dato=0;
     public void Sumar(double termino){
-        dato =  termino;
+        dato +=  termino;
     }
     public void Restar(double termino){
         dato -= termino;
